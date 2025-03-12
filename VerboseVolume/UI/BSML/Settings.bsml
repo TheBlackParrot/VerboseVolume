@@ -1,0 +1,26 @@
+﻿<settings-container xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+                     xsi:noNamespaceSchemaLocation='https://monkeymanboy.github.io/BSML-Docs/BSMLSchema.xsd'>
+    <slider-setting text="Menu Music Volume" bind-value="true" apply-on-change="true" show-buttons="true" formatter="DoublePercentageFormatter"
+                    value="MenuMusicVolume" min="0" max="0.5" increment="0.005"/>
+    <slider-setting text="In-Game Music Volume" bind-value="true" apply-on-change="true" show-buttons="true" formatter="PercentageFormatter"
+                    value="GameMusicVolume" min="0" max="1" increment="0.01"/>
+
+    <horizontal><text text="-----" font-size="3" color="#00000000"/></horizontal>
+
+    <slider-setting text="UI Volume" bind-value="true" apply-on-change="true" show-buttons="true" formatter="PercentageFormatter"
+                    value="UIVolume" min="0" max="1" increment="0.01"/>
+
+    <horizontal><text text="-----" font-size="3" color="#00000000"/></horizontal>
+
+    <slider-setting text="Good Cut Volume" bind-value="true" apply-on-change="true" show-buttons="true" formatter="PercentageFormatter"
+                    value="GoodCutVolume" min="0" max="1" increment="0.01"/>
+    <slider-setting text="Bad Cut Volume" bind-value="true" apply-on-change="true" show-buttons="true" formatter="PercentageFormatter"
+                    value="BadCutVolume" min="0" max="1" increment="0.01"/>
+    <slider-setting text="Bomb Cut Volume" bind-value="true" apply-on-change="true" show-buttons="true" formatter="PercentageFormatter"
+                    value="BombCutVolume" min="0" max="1" increment="0.01"/>
+
+    <horizontal><text text="-----" font-size="3" color="#00000000"/></horizontal>
+
+    <slider-setting text="Fireworks Volume" bind-value="true" apply-on-change="true" show-buttons="true" formatter="PercentageFormatter"
+                    value="FireworksVolume" min="0" max="1" increment="0.01"/>
+</settings-container>
